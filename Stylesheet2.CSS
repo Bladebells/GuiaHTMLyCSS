@@ -1,0 +1,63 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-image: url(Hex_Background2.jpg);
+    color: #FFF;
+}
+body{
+    width: 80%;
+    margin: 10px auto;
+}
+.limpiar{
+    clear: both;
+}
+header, aside, section, article, footer{
+    margin: 10px 0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+header{
+    background: #b7b9b8;
+}
+nav{
+    background: #000c7a;
+}
+ul{
+    list-style: circle;
+}
+nav ul li{
+    text-align: center;
+    margin: 0 10px;
+    padding: 4px 4px;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+}
+aside{
+    float: left;
+    width: 25%;
+    height: 500px;
+    background: #005e71;
+}
+section{
+    float: right;
+    width: 70%;
+    height: 200px;
+    background: #485860d2;
+}
+aside div{
+    position:relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+article{
+    margin: 10px auto;
+    background: #06436c;
+    width: 90%;
+}
+footer{
+    background: #000000;
+}
